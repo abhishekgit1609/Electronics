@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./Product1.css">
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image">
+            <img src="https://www.gonoise.com/cdn/shop/products/Side02_360x.png?v=1672316134" alt="Classic Elegance Men's Watch">
+        </div>
+        <div class="product-details">
+            <h2>Classic Elegance Men's Watch</h2>
+            <p class="price">$149.99</p>
+            <p class="description">Experience timeless sophistication with our Classic Elegance Men's Watch. This exquisite timepiece combines precision engineering with a sleek design to complement your style on any occasion.</p>
+            <p class="features">Key Features:</p>
+            <ul>
+                <li>High-Quality Movement</li>
+                <li>Elegant Design</li>
+                <li>Date Function</li>
+                <li>Water-Resistant</li>
+                <li>Scratch-Resistant</li>
+                <li>Adjustable Strap</li>
+                <li>Gift-Ready Packaging</li>
+            </ul>
+            <p class="specifications">Specifications:</p>
+            <ul>
+                <li>Case Diameter: 42mm</li>
+                <li>Case Thickness: 9mm</li>
+                <li>Strap Length: 240mm</li>
+                <li>Strap Width: 20mm</li>
+            </ul>
+            <div class="buttons">
+                <button id="addToCartBtn" class="add-to-cart-btn">Add to Cart</button>
+                <button id="buyNowBtn" class="buy-now-btn">Buy Now</button>
+            </div>
+        </div>
+        <div class="cart">
+            Cart: <span id="cartCount">0</span>
+        </div>
+    </div>
+
+    <script>
+        let cartCount = 0;
+
+        // Function to handle adding an item to the cart
+        function addToCart() {
+            cartCount++;
+            document.getElementById("cartCount").textContent = cartCount;
+        }
+
+        // Attach the addToCart function to the "Add to Cart" button
+        document.getElementById("addToCartBtn").addEventListener("click", addToCart);
+    </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* Reset default styles */
+body, h1, h2, p, button, div {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* navbar  */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    width: 100%;
+    padding-block: 20px;
+   position: fixed;
+    /* /* z-index:99; */
+    background-color: rgba(255, 255, 255, 0.318);
+    color: rgb(0, 0, 0); */
+
+}
+
+.nav-select {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.buttons {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.buttons .start-button {
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    color:white;
+    height: 20px;
+    width: 90px;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.watchcontainer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.watch1-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.watch1-container img {
+    max-width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.cart-button,
+.buy-button {
+    background-color: #dcb133;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-button:hover,
+.buy-button:hover {
+    background-color: #000000;
+}
+
+#Noise-head , #Samsung-head , #fossil-head , #Boat-head ,#Apple-head{
+    text-align: center;
+}
+
+
+.banner-container img{
+    height:200px;
+    width:100%;
+    object-fit: cover;
+}
+
+/* footer  */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+
+.logo-footer .social-media {
+    margin-top: 20px;
+}
+
+.product-list p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.gethelp-list p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.aboutus-list p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+
+/* copyright  */
+.copyright {
+    text-align: center;
+    font-size: smaller;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+

@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.outer-container{
+    background-color: white;
+    margin:10px;
+}
+/* .outer-container{
+    height:100vh;
+    width:100vw;
+    /* display: flex; */
+    
+
+
+/* container */
+.container{
+    margin-left:50px;
+   height:100vh;
+   width:90vw;
+ display:  flex;
+ justify-content: center;
+ align-items: center;
+ gap: 60px;
+}
+
+/* image */
+.image{
+    height:95%;
+    width:50%;
+    background-image: url("./Signup-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8%;
+    
+}
+
+
+/* signup */
+.sign-up-container{
+    height:100%;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+  }
+
+  .sign-up{
+    display:flex;
+  flex-direction: column;
+    font-size: 1rem;
+    margin-top: 10%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 25px;
+  }
+
+.form input{
+    width: 100%;
+    font-size: .6rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.sign-up .logo{
+    font-size: 100%;
+    padding:2%;
+    margin-bottom: 30px ;
+}
+.sign-up .account{
+    margin-bottom:30px;
+}
+
+/* buttons */
+.create-button button{
+    margin-top:20px;   
+}
+
+button{
+    font-size: .6rem;
+    border: none;
+    width:100%;
+    padding:8px;
+}
+.sign-up-google{
+    margin-top:10px;
+}
+.log-in{
+    margin-top: 10px;
+    font-size: .5rem;
+    text-align: center;
+}
